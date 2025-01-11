@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LawyerFit: 你适合成为律师吗？</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 测试页面 -->
+    <div id="test-page" class="page">
+      <h1>LawyerFit: 你适合成为律师吗？</h1>
+      <div id="question-container">
+        <p id="question"></p>
+        <div id="options"></div>
+      </div>
+      <button id="next-btn" disabled>下一题</button>
+      <div id="progress">进度：<span id="progress-text">0/5</span></div>
+    </div>
+
+    <!-- 结果页面 -->
+    <div id="result-page" class="page hidden">
+      <h1>测试结果</h1>
+      <p id="result-text"></p>
+      <button id="retry-btn">重新测试</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
